@@ -1,0 +1,67 @@
+{
+    "verbes_d_action": {
+      "Discussion_et_Debat": [
+        {"verbe": "Aborder", "definition": "Introduire un sujet."},
+        {"verbe": "Analyser", "definition": "Examiner en détail."},
+        {"verbe": "Discuter", "definition": "Échanger des points de vue."},
+        {"verbe": "Évoquer", "definition": "Mentionner brièvement."},
+        {"verbe": "Explorer", "definition": "Examiner différentes possibilités."},
+        {"verbe": "Questionner", "definition": "Poser des questions."},
+        {"verbe": "Débattre", "definition": "Discuter de manière approfondie."},
+        {"verbe": "Clarifier", "definition": "Rendre plus clair."},
+        {"verbe": "Comparer", "definition": "Mettre en relation des éléments."},
+        {"verbe": "Évaluer", "definition": "Juger ou estimer la valeur."}
+      ],
+      "Decision_et_Resolution": [
+        {"verbe": "Adopter", "definition": "Accepter une proposition."},
+        {"verbe": "Approuver", "definition": "Donner son accord."},
+        {"verbe": "Convenir", "definition": "S'accorder sur quelque chose."},
+        {"verbe": "Décider", "definition": "Prendre une décision."},
+        {"verbe": "Définir", "definition": "Établir clairement."},
+        {"verbe": "Résoudre", "definition": "Trouver une solution."},
+        {"verbe": "Valider", "definition": "Confirmer la validité."}
+      ],
+      "Mise_en_Oeuvre_et_Suivi": [
+        {"verbe": "Appliquer", "definition": "Mettre en pratique."},
+        {"verbe": "Coordonner", "definition": "Organiser les actions."},
+        {"verbe": "Déployer", "definition": "Mettre en place."},
+        {"verbe": "Implémenter", "definition": "Introduire une nouvelle méthode."},
+        {"verbe": "Organiser", "definition": "Structurer les actions."},
+        {"verbe": "Planifier", "definition": "Établir un plan."},
+        {"verbe": "Superviser", "definition": "Surveiller l'exécution."},
+        {"verbe": "Suivre", "definition": "Assurer le suivi."},
+        {"verbe": "Mettre en œuvre", "definition": "Appliquer concrètement."}
+      ],
+      "Communication_et_Information": [
+        {"verbe": "Informer", "definition": "Fournir des informations."},
+        {"verbe": "Notifier", "definition": "Communiquer officiellement."},
+        {"verbe": "Présenter", "definition": "Exposer des informations."},
+        {"verbe": "Rapporter", "definition": "Faire un compte rendu."},
+        {"verbe": "Transmettre", "definition": "Faire passer l'information."},
+        {"verbe": "Communiquer", "definition": "Échanger des informations."},
+        {"verbe": "Partager", "definition": "Distribuer des informations."}
+      ]
+      // Ajouter les autres catégories ici
+    },
+    "exemples_d_utilisation": [
+      {
+        "avant": "Nous avons fait un point sur les conditions de travail.",
+        "apres": "Nous avons analysé les conditions de travail."
+      },
+      {
+        "avant": "L'entreprise a décidé de changer les horaires.",
+        "apres": "L'entreprise a adopté une nouvelle organisation des horaires."
+      },
+      {
+        "avant": "Nous avons parlé des nouvelles mesures de sécurité.",
+        "apres": "Nous avons discuté des nouvelles mesures de sécurité."
+      }
+    ],
+    "conseils": [
+      "Choisissez des verbes qui décrivent exactement l'action ou l'intention.",
+      "Évitez les termes vagues pour assurer une compréhension facile.",
+      "Utilisez les mêmes termes de manière cohérente tout au long du document.",
+      "Soyez succinct tout en étant précis."
+    ]
+  }
+  

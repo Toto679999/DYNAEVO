@@ -1,0 +1,36 @@
+{
+    "connecteurs_logiques": {
+      "ajout": [
+        { "connecteur": "En outre", "utilisation": "Ajouter un élément ou une idée supplémentaire." },
+        { "connecteur": "De plus", "utilisation": "Renforcer une affirmation avec une information additionnelle." },
+        { "connecteur": "Par ailleurs", "utilisation": "Introduire un autre point lié au sujet." },
+        { "connecteur": "Aussi", "utilisation": "Marquer une addition dans un contexte causal ou explicatif." }
+      ],
+      "nuance": [
+        { "connecteur": "Cependant", "utilisation": "Marquer une opposition ou une restriction." },
+        { "connecteur": "Néanmoins", "utilisation": "Exprimer une concession ou une limitation." },
+        { "connecteur": "Toutefois", "utilisation": "Introduire une exception ou un contraste." },
+        { "connecteur": "Or", "utilisation": "Présenter une opposition ou un changement de perspective." }
+      ],
+      "conséquence": [
+        { "connecteur": "Ainsi", "utilisation": "Introduire une conséquence directe." },
+        { "connecteur": "Donc", "utilisation": "Exprimer une conclusion ou une conséquence." },
+        { "connecteur": "C’est pourquoi", "utilisation": "Marquer une explication causale." },
+        { "connecteur": "En conséquence", "utilisation": "Souligner un résultat ou une implication." }
+      ],
+      "temps": [
+        { "connecteur": "Ensuite", "utilisation": "Indiquer une continuité ou une progression temporelle." },
+        { "connecteur": "Dès lors", "utilisation": "Marquer un moment à partir duquel un changement s'opère." },
+        { "connecteur": "Par la suite", "utilisation": "Introduire un événement ou une étape suivante." },
+        { "connecteur": "Depuis", "utilisation": "Marquer une période continue ou un point d'origine temporel." }
+      ]
+    },
+    "substituts_de_concernant": [
+      { "substitut": "Au sujet de", "utilisation": "Évoquer un thème ou une question précise." },
+      { "substitut": "À propos de", "utilisation": "Introduire un sujet ou une référence spécifique." },
+      { "substitut": "Relatif à", "utilisation": "Indiquer une relation avec un point particulier." },
+      { "substitut": "En lien avec", "utilisation": "Souligner une connexion ou une relation directe." },
+      { "substitut": "En rapport avec", "utilisation": "Mettre en avant une association ou une pertinence contextuelle." }
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "exceptions_regle_mention_unique": [
+      {
+        "situation": "Intervention longue",
+        "explication": "L'intervention contient plusieurs idées distinctes où l'absence de rappel rend la lecture confuse.",
+        "solution": "Réintroduire brièvement l'intervenant dans les phrases clés pour les transitions.",
+        "exemple_incorrect": "Il a été précisé que les budgets sont en hausse. Les prochaines étapes seront discutées.",
+        "exemple_correct": "La Direction précise que les budgets sont en hausse. La Direction évoque également que les prochaines étapes seront discutées."
+      },
+      {
+        "situation": "Dialogue avec plusieurs intervenants",
+        "explication": "La reformulation sans rappel explicite crée une ambiguïté dans les échanges multiples.",
+        "solution": "Mentionner chaque intervenant au début de sa prise de parole.",
+        "exemple_incorrect": "Il a ajouté qu’une révision du plan est nécessaire. Une décision sera prise.",
+        "exemple_correct": "Jean DUPONT a ajouté qu’une révision du plan est nécessaire. Jean DUPONT précise qu’une décision sera prise."
+      },
+      {
+        "situation": "Référence à plusieurs intervenants",
+        "explication": "Un intervenant fait référence à d'autres intervenants ou groupes sans préciser les rôles.",
+        "solution": "Mentionner les rôles ou fonctions de chacun de manière explicite.",
+        "exemple_incorrect": "Ils ont convenu que les délais seront ajustés.",
+        "exemple_correct": "La Direction et le CSE ont convenu que les délais seront ajustés."
+      },
+      {
+        "situation": "Rapport d'événements passés",
+        "explication": "La mention unique rend difficile la compréhension des contributions de plusieurs intervenants dans un contexte historique.",
+        "solution": "Inclure les noms ou fonctions des intervenants passés pour plus de clarté.",
+        "exemple_incorrect": "Il a été décidé que le projet serait suspendu.",
+        "exemple_correct": "La Direction a décidé que le projet serait suspendu."
+      }
+    ]
+  }
+  

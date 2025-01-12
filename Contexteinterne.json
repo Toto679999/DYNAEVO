@@ -1,0 +1,70 @@
+{
+  "interventions": {
+    "structure_logique": {
+      "introduction": {
+        "type": "Contexte ou sujet principal",
+        "exemples": [
+          "L'intervenant présente le contexte initial.",
+          "Un problème ou un besoin est posé.",
+          "Une question spécifique est soulevée."
+        ]
+      },
+      "developpement": {
+        "type": "Développement ou argumentation",
+        "exemples": [
+          "Les faits ou chiffres sont fournis pour étayer l'argument.",
+          "Une analyse des causes ou implications est présentée.",
+          "Des propositions ou alternatives sont explorées."
+        ]
+      },
+      "conclusion": {
+        "type": "Conclusion, décision ou appel à l'action",
+        "exemples": [
+          "Une décision est prise ou une proposition formulée.",
+          "Un résumé des points principaux est présenté.",
+          "Un appel à l'action ou une solution concrète est proposée."
+        ]
+      }
+    },
+    "objectifs_interventions": [
+      { "objectif": "Informer", "description": "Fournir des faits ou des données objectives." },
+      { "objectif": "Justifier", "description": "Expliquer les raisons derrière une situation ou une décision." },
+      { "objectif": "Proposer", "description": "Suggérer des solutions ou actions futures." },
+      { "objectif": "Convaincre", "description": "Persuader les autres membres avec des arguments solides." }
+    ],
+    "consignes_stylistiques": {
+      "mention_unique": {
+        "regle": "Mentionner l’intervenant une seule fois dans la première phrase.",
+        "interdits": ["Pronoms liés à l’intervenant (il, elle, etc.)", "Expressions possessives (son, leur, etc.)"],
+        "solution": "Structurer chaque phrase de manière autonome."
+      },
+      "connecteurs_logiques": [
+        "En outre", "Cependant", "Ainsi", "Par conséquent", "Dès lors"
+      ],
+      "formulations_a_eviter": [
+        "Concernant", "Il y a", "Cela pose la question de savoir"
+      ],
+      "phrases_autonomes": {
+        "description": "Chaque phrase doit être compréhensible indépendamment.",
+        "verification": [
+          "Pas de dépendance à la phrase précédente.",
+          "Pas de référence implicite ou explicite à l'intervenant."
+        ]
+      }
+    },
+    "contexte_sens_interne": {
+      "causalite": {
+        "exemple": "Cette situation est due à une augmentation des coûts de production.",
+        "indication": "Utiliser des connecteurs pour expliquer les liens de cause à effet."
+      },
+      "chronologie": {
+        "exemple": "Ensuite, une analyse des données sera réalisée.",
+        "indication": "Respecter la séquence temporelle si elle est évoquée dans l'intervention."
+      },
+      "probleme_solution": {
+        "exemple": "Un problème de budget a été soulevé. Une réduction des dépenses est envisagée.",
+        "indication": "Identifier clairement le problème avant de proposer une solution."
+      }
+    }
+  }
+}

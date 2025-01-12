@@ -1,0 +1,38 @@
+{
+    "mots_interdits": {
+      "vocabulaire_general": [
+        { "mot": "personne", "raison": "Ambigu et peu précis dans le contexte des réunions." },
+        { "mot": "aujourd’hui", "raison": "Créé une temporalité inutilement restrictive." },
+        { "mot": "actuellement", "raison": "Superflu, peut être remplacé par un verbe au présent simple." },
+        { "mot": "il y a", "raison": "Formulation lourde, privilégier une structure directe." },
+        { "mot": "concernant", "raison": "Remplacé par des alternatives plus neutres comme 'au sujet de'." },
+        { "mot": "s’agissant", "raison": "Formulation complexe, peu adaptée à un style clair et concis." },
+        { "mot": "très", "raison": "Adverbe vague, privilégier un adjectif plus précis selon le contexte." },
+        { "mot": "mauvais", "raison": "Adjectif général, remplacer par un terme plus précis ou technique." },
+        { "mot": "bon", "raison": "Adjectif générique, privilégier des qualificatifs spécifiques." },
+        { "mot": "trop", "raison": "Peut induire un jugement implicite, remplacer par une précision contextuelle." }
+      ],
+      "formulations_indesirables": [
+        { "expression": "pose la question de savoir", "raison": "Formulation inutilement longue, remplacer par 'demander'." },
+        { "expression": "demande qui", "raison": "Redondant, peut être simplifié." },
+        { "expression": "s’interroge", "raison": "Trop vague, manque de précision dans le contexte professionnel." }
+      ],
+      "adverbes_superflus": [
+        { "mot": "notamment", "raison": "Souvent redondant, peut être supprimé sans perte de sens." },
+        { "mot": "simplement", "raison": "Apporte peu d’information, souvent inutile." }
+      ]
+    },
+    "instructions": {
+      "description": "Détecter et éviter l'utilisation des mots et expressions listés. Proposer des reformulations claires et concises en suivant les consignes stylistiques générales.",
+      "alternatives": {
+        "concernant": "Remplacer par 'au sujet de', 'à propos de', ou 'en lien avec'.",
+        "aujourd’hui": "Supprimer ou reformuler pour indiquer une action au présent sans référence temporelle.",
+        "il y a": "Reformuler en éliminant cette tournure (ex: 'il y a des retards' devient 'des retards persistent').",
+        "très": "Remplacer par un adjectif précis (ex: 'très important' devient 'essentiel', 'crucial').",
+        "mauvais": "Remplacer par un terme contextuel précis (ex: 'mauvais résultat' devient 'résultat insuffisant').",
+        "bon": "Remplacer par un qualificatif spécifique (ex: 'bon choix' devient 'choix judicieux', 'approprié').",
+        "trop": "Reformuler pour une évaluation neutre (ex: 'trop difficile' devient 'particulièrement complexe')."
+      }
+    }
+  }
+  
