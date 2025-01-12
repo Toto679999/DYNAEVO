@@ -1,36 +1,103 @@
 {
-    "connecteurs_logiques": {
-      "ajout": [
-        { "connecteur": "En outre", "utilisation": "Ajouter un élément ou une idée supplémentaire." },
-        { "connecteur": "De plus", "utilisation": "Renforcer une affirmation avec une information additionnelle." },
-        { "connecteur": "Par ailleurs", "utilisation": "Introduire un autre point lié au sujet." },
-        { "connecteur": "Aussi", "utilisation": "Marquer une addition dans un contexte causal ou explicatif." }
-      ],
-      "nuance": [
-        { "connecteur": "Cependant", "utilisation": "Marquer une opposition ou une restriction." },
-        { "connecteur": "Néanmoins", "utilisation": "Exprimer une concession ou une limitation." },
-        { "connecteur": "Toutefois", "utilisation": "Introduire une exception ou un contraste." },
-        { "connecteur": "Or", "utilisation": "Présenter une opposition ou un changement de perspective." }
-      ],
-      "conséquence": [
-        { "connecteur": "Ainsi", "utilisation": "Introduire une conséquence directe." },
-        { "connecteur": "Donc", "utilisation": "Exprimer une conclusion ou une conséquence." },
-        { "connecteur": "C’est pourquoi", "utilisation": "Marquer une explication causale." },
-        { "connecteur": "En conséquence", "utilisation": "Souligner un résultat ou une implication." }
-      ],
-      "temps": [
-        { "connecteur": "Ensuite", "utilisation": "Indiquer une continuité ou une progression temporelle." },
-        { "connecteur": "Dès lors", "utilisation": "Marquer un moment à partir duquel un changement s'opère." },
-        { "connecteur": "Par la suite", "utilisation": "Introduire un événement ou une étape suivante." },
-        { "connecteur": "Depuis", "utilisation": "Marquer une période continue ou un point d'origine temporel." }
-      ]
-    },
-    "substituts_de_concernant": [
-      { "substitut": "Au sujet de", "utilisation": "Évoquer un thème ou une question précise." },
-      { "substitut": "À propos de", "utilisation": "Introduire un sujet ou une référence spécifique." },
-      { "substitut": "Relatif à", "utilisation": "Indiquer une relation avec un point particulier." },
-      { "substitut": "En lien avec", "utilisation": "Souligner une connexion ou une relation directe." },
-      { "substitut": "En rapport avec", "utilisation": "Mettre en avant une association ou une pertinence contextuelle." }
+  "connecteurs_logiques": {
+    "ajout": [
+      { "connecteur": "En outre", "utilisation": "Ajouter un élément ou une idée supplémentaire." },
+      { "connecteur": "De plus", "utilisation": "Renforcer une affirmation avec une information additionnelle." },
+      { "connecteur": "Par ailleurs", "utilisation": "Introduire un autre point lié au sujet." },
+      { "connecteur": "Aussi", "utilisation": "Marquer une addition dans un contexte causal ou explicatif." },
+      { "connecteur": "Également", "utilisation": "Ajouter une information de manière équivalente." },
+      { "connecteur": "De surcroît", "utilisation": "Ajouter une information supplémentaire avec emphase." },
+      { "connecteur": "Sans oublier", "utilisation": "Ajouter un élément tout en reconnaissant son importance." }
+    ],
+    "nuance": [
+      { "connecteur": "Cependant", "utilisation": "Marquer une opposition ou une restriction." },
+      { "connecteur": "Néanmoins", "utilisation": "Exprimer une concession ou une limitation." },
+      { "connecteur": "Toutefois", "utilisation": "Introduire une exception ou un contraste." },
+      { "connecteur": "Or", "utilisation": "Présenter une opposition ou un changement de perspective." },
+      { "connecteur": "Bien que", "utilisation": "Introduire une concession." },
+      { "connecteur": "Même si", "utilisation": "Exprimer une condition contraire." },
+      { "connecteur": "Quoique", "utilisation": "Introduire une concession avec une nuance." }
+    ],
+    "conséquence": [
+      { "connecteur": "Ainsi", "utilisation": "Introduire une conséquence directe." },
+      { "connecteur": "Donc", "utilisation": "Exprimer une conclusion ou une conséquence." },
+      { "connecteur": "C’est pourquoi", "utilisation": "Marquer une explication causale." },
+      { "connecteur": "En conséquence", "utilisation": "Souligner un résultat ou une implication." },
+      { "connecteur": "Par conséquent", "utilisation": "Indiquer une conséquence logique." },
+      { "connecteur": "De sorte que", "utilisation": "Introduire une conséquence avec une nuance de but atteint." },
+      { "connecteur": "Ainsi donc", "utilisation": "Renforcer l'idée de conséquence." }
+    ],
+    "cause": [
+      { "connecteur": "Parce que", "utilisation": "Exprimer une raison ou une cause." },
+      { "connecteur": "Puisque", "utilisation": "Indiquer une cause évidente ou connue." },
+      { "connecteur": "Car", "utilisation": "Introduire une explication ou une justification." },
+      { "connecteur": "En raison de", "utilisation": "Expliquer la cause d'un événement." },
+      { "connecteur": "Grâce à", "utilisation": "Indiquer une cause positive ou un avantage." },
+      { "connecteur": "Vu que", "utilisation": "Introduire une cause basée sur une constatation." },
+      { "connecteur": "Sous prétexte que", "utilisation": "Introduire une cause souvent utilisée pour justifier quelque chose." }
+    ],
+    "but": [
+      { "connecteur": "Afin que", "utilisation": "Exprimer le but ou l'objectif." },
+      { "connecteur": "Pour que", "utilisation": "Indiquer l'objectif d'une action." },
+      { "connecteur": "Dans le but de", "utilisation": "Spécifier l'intention derrière une action." },
+      { "connecteur": "De peur que", "utilisation": "Exprimer un objectif préventif." },
+      { "connecteur": "Pour", "utilisation": "Indiquer la finalité d'une action." },
+      { "connecteur": "Dans l'intention de", "utilisation": "Spécifier l'objectif visé." },
+      { "connecteur": "En vue de", "utilisation": "Exprimer un but avec une perspective future." }
+    ],
+    "condition": [
+      { "connecteur": "Si", "utilisation": "Introduire une condition." },
+      { "connecteur": "À condition que", "utilisation": "Exprimer une condition nécessaire." },
+      { "connecteur": "Pourvu que", "utilisation": "Indiquer une condition souhaitée." },
+      { "connecteur": "À moins que", "utilisation": "Exprimer une condition négative." },
+      { "connecteur": "En cas de", "utilisation": "Introduire une condition spécifique." },
+      { "connecteur": "Dans la mesure où", "utilisation": "Exprimer une condition basée sur une limite." },
+      { "connecteur": "À supposer que", "utilisation": "Introduire une hypothèse conditionnelle." }
+    ],
+    "temps": [
+      { "connecteur": "Ensuite", "utilisation": "Indiquer une continuité ou une progression temporelle." },
+      { "connecteur": "Dès lors", "utilisation": "Marquer un moment à partir duquel un changement s'opère." },
+      { "connecteur": "Par la suite", "utilisation": "Introduire un événement ou une étape suivante." },
+      { "connecteur": "Depuis", "utilisation": "Marquer une période continue ou un point d'origine temporel." },
+      { "connecteur": "Avant que", "utilisation": "Indiquer une action antérieure à une autre." },
+      { "connecteur": "Après que", "utilisation": "Marquer une action postérieure à une autre." },
+      { "connecteur": "Pendant que", "utilisation": "Exprimer une simultanéité entre deux actions." },
+      { "connecteur": "Tandis que", "utilisation": "Introduire une action contrastée se déroulant en même temps." },
+      { "connecteur": "Au moment où", "utilisation": "Spécifier le timing d'une action." }
+    ],
+    "exemple": [
+      { "connecteur": "Par exemple", "utilisation": "Introduire un exemple pour illustrer." },
+      { "connecteur": "Notamment", "utilisation": "Souligner un cas particulier parmi d'autres." },
+      { "connecteur": "Tel que", "utilisation": "Présenter un exemple spécifique." },
+      { "connecteur": "Comme", "utilisation": "Introduire un exemple de manière plus générale." },
+      { "connecteur": "En particulier", "utilisation": "Mettre en avant un exemple précis." },
+      { "connecteur": "C’est-à-dire", "utilisation": "Clarifier ou préciser avec un exemple." },
+      { "connecteur": "À titre d'exemple", "utilisation": "Présenter un exemple de manière formelle." }
+    ],
+    "conclusion": [
+      { "connecteur": "En résumé", "utilisation": "Synthétiser les points principaux." },
+      { "connecteur": "En conclusion", "utilisation": "Introduire la conclusion ou le résumé final." },
+      { "connecteur": "Pour conclure", "utilisation": "Marquer la fin d'une discussion avec une conclusion." },
+      { "connecteur": "Bref", "utilisation": "Résumé de manière concise." },
+      { "connecteur": "Somme toute", "utilisation": "Synthèse générale des points abordés." },
+      { "connecteur": "Finalement", "utilisation": "Conclure après une série d'arguments ou d'exemples." },
+      { "connecteur": "Ainsi donc", "utilisation": "Renforcer l'idée de conséquence." }
     ]
-  }
-  
+  },
+  "substituts_de_concernant": [
+    { "substitut": "Au sujet de", "utilisation": "Évoquer un thème ou une question précise." },
+    { "substitut": "À propos de", "utilisation": "Introduire un sujet ou une référence spécifique." },
+    { "substitut": "Relatif à", "utilisation": "Indiquer une relation avec un point particulier." },
+    { "substitut": "En lien avec", "utilisation": "Souligner une connexion ou une relation directe." },
+    { "substitut": "En rapport avec", "utilisation": "Mettre en avant une association ou une pertinence contextuelle." },
+    { "substitut": "Sur", "utilisation": "Introduire un sujet de manière concise." },
+    { "substitut": "Vis-à-vis de", "utilisation": "Exprimer une relation ou une référence par rapport à quelque chose." },
+    { "substitut": "Quant à", "utilisation": "Introduire un sujet spécifique en comparaison ou en contraste." },
+    { "substitut": "À l'égard de", "utilisation": "Exprimer une relation ou une référence envers quelque chose." },
+    { "substitut": "Du côté de", "utilisation": "Indiquer une position ou une perspective par rapport à un sujet." },
+    { "substitut": "En ce qui concerne", "utilisation": "Introduire un sujet de manière formelle et précise." },
+    { "substitut": "Pour ce qui est de", "utilisation": "Introduire un sujet en le spécifiant davantage." },
+    { "substitut": "À l'issue de", "utilisation": "Introduire un sujet en relation avec la conclusion ou la fin de quelque chose." },
+    { "substitut": "En référence à", "utilisation": "Faire allusion ou se rapporter à un sujet spécifique." }
+  ]
+}
