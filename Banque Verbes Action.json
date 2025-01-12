@@ -1,67 +1,182 @@
 {
-    "verbes_d_action": {
-      "Discussion_et_Debat": [
-        {"verbe": "Aborder", "definition": "Introduire un sujet."},
-        {"verbe": "Analyser", "definition": "Examiner en détail."},
-        {"verbe": "Discuter", "definition": "Échanger des points de vue."},
-        {"verbe": "Évoquer", "definition": "Mentionner brièvement."},
-        {"verbe": "Explorer", "definition": "Examiner différentes possibilités."},
-        {"verbe": "Questionner", "definition": "Poser des questions."},
-        {"verbe": "Débattre", "definition": "Discuter de manière approfondie."},
-        {"verbe": "Clarifier", "definition": "Rendre plus clair."},
-        {"verbe": "Comparer", "definition": "Mettre en relation des éléments."},
-        {"verbe": "Évaluer", "definition": "Juger ou estimer la valeur."}
-      ],
-      "Decision_et_Resolution": [
-        {"verbe": "Adopter", "definition": "Accepter une proposition."},
-        {"verbe": "Approuver", "definition": "Donner son accord."},
-        {"verbe": "Convenir", "definition": "S'accorder sur quelque chose."},
-        {"verbe": "Décider", "definition": "Prendre une décision."},
-        {"verbe": "Définir", "definition": "Établir clairement."},
-        {"verbe": "Résoudre", "definition": "Trouver une solution."},
-        {"verbe": "Valider", "definition": "Confirmer la validité."}
-      ],
-      "Mise_en_Oeuvre_et_Suivi": [
-        {"verbe": "Appliquer", "definition": "Mettre en pratique."},
-        {"verbe": "Coordonner", "definition": "Organiser les actions."},
-        {"verbe": "Déployer", "definition": "Mettre en place."},
-        {"verbe": "Implémenter", "definition": "Introduire une nouvelle méthode."},
-        {"verbe": "Organiser", "definition": "Structurer les actions."},
-        {"verbe": "Planifier", "definition": "Établir un plan."},
-        {"verbe": "Superviser", "definition": "Surveiller l'exécution."},
-        {"verbe": "Suivre", "definition": "Assurer le suivi."},
-        {"verbe": "Mettre en œuvre", "definition": "Appliquer concrètement."}
-      ],
-      "Communication_et_Information": [
-        {"verbe": "Informer", "definition": "Fournir des informations."},
-        {"verbe": "Notifier", "definition": "Communiquer officiellement."},
-        {"verbe": "Présenter", "definition": "Exposer des informations."},
-        {"verbe": "Rapporter", "definition": "Faire un compte rendu."},
-        {"verbe": "Transmettre", "definition": "Faire passer l'information."},
-        {"verbe": "Communiquer", "definition": "Échanger des informations."},
-        {"verbe": "Partager", "definition": "Distribuer des informations."}
-      ]
-      // Ajouter les autres catégories ici
-    },
-    "exemples_d_utilisation": [
-      {
-        "avant": "Nous avons fait un point sur les conditions de travail.",
-        "apres": "Nous avons analysé les conditions de travail."
-      },
-      {
-        "avant": "L'entreprise a décidé de changer les horaires.",
-        "apres": "L'entreprise a adopté une nouvelle organisation des horaires."
-      },
-      {
-        "avant": "Nous avons parlé des nouvelles mesures de sécurité.",
-        "apres": "Nous avons discuté des nouvelles mesures de sécurité."
-      }
+  "verbes_d_action": {
+    "Discussion_et_Debat": [
+      {"verbe": "Aborder", "definition": "Introduire un sujet."},
+      {"verbe": "Analyser", "definition": "Examiner en détail."},
+      {"verbe": "Discuter", "definition": "Échanger des points de vue."},
+      {"verbe": "Évoquer", "definition": "Mentionner brièvement."},
+      {"verbe": "Explorer", "definition": "Examiner différentes possibilités."},
+      {"verbe": "Questionner", "definition": "Poser des questions."},
+      {"verbe": "Débattre", "definition": "Discuter de manière approfondie."},
+      {"verbe": "Clarifier", "definition": "Rendre plus clair."},
+      {"verbe": "Comparer", "definition": "Mettre en relation des éléments."},
+      {"verbe": "Évaluer", "definition": "Juger ou estimer la valeur."},
+      {"verbe": "Argumenter", "definition": "Présenter des arguments en faveur ou contre."},
+      {"verbe": "Synthétiser", "definition": "Résumer les points clés."},
+      {"verbe": "Proposer", "definition": "Suggérer une idée ou une solution."},
+      {"verbe": "Contester", "definition": "Remettre en question une idée ou une décision."},
+      {"verbe": "Appuyer", "definition": "Soutenir une idée ou une proposition."}
     ],
-    "conseils": [
-      "Choisissez des verbes qui décrivent exactement l'action ou l'intention.",
-      "Évitez les termes vagues pour assurer une compréhension facile.",
-      "Utilisez les mêmes termes de manière cohérente tout au long du document.",
-      "Soyez succinct tout en étant précis."
+    "Decision_et_Resolution": [
+      {"verbe": "Adopter", "definition": "Accepter une proposition."},
+      {"verbe": "Approuver", "definition": "Donner son accord."},
+      {"verbe": "Convenir", "definition": "S'accorder sur quelque chose."},
+      {"verbe": "Décider", "definition": "Prendre une décision."},
+      {"verbe": "Définir", "definition": "Établir clairement."},
+      {"verbe": "Résoudre", "definition": "Trouver une solution."},
+      {"verbe": "Valider", "definition": "Confirmer la validité."},
+      {"verbe": "Ratifier", "definition": "Confirmer officiellement une décision."},
+      {"verbe": "Mandater", "definition": "Donner un mandat pour agir."},
+      {"verbe": "Établir", "definition": "Mettre en place de manière formelle."},
+      {"verbe": "Confirmer", "definition": "Valider une décision ou une information."},
+      {"verbe": "Délibérer", "definition": "Réfléchir collectivement avant de décider."},
+      {"verbe": "Consulter", "definition": "Demander l'avis avant de décider."}
+    ],
+    "Mise_en_Oeuvre_et_Suivi": [
+      {"verbe": "Appliquer", "definition": "Mettre en pratique."},
+      {"verbe": "Coordonner", "definition": "Organiser les actions."},
+      {"verbe": "Déployer", "definition": "Mettre en place."},
+      {"verbe": "Implémenter", "definition": "Introduire une nouvelle méthode."},
+      {"verbe": "Organiser", "definition": "Structurer les actions."},
+      {"verbe": "Planifier", "definition": "Établir un plan."},
+      {"verbe": "Superviser", "definition": "Surveiller l'exécution."},
+      {"verbe": "Suivre", "definition": "Assurer le suivi."},
+      {"verbe": "Mettre en œuvre", "definition": "Appliquer concrètement."},
+      {"verbe": "Exécuter", "definition": "Réaliser une tâche ou un plan."},
+      {"verbe": "Contrôler", "definition": "Vérifier la conformité et l'avancement."},
+      {"verbe": "Ajuster", "definition": "Modifier en fonction des besoins."},
+      {"verbe": "Rapporter", "definition": "Faire un compte rendu de l'avancement."},
+      {"verbe": "Assurer", "definition": "Garantir la réalisation."},
+      {"verbe": "Finaliser", "definition": "Achever une action ou un projet."}
+    ],
+    "Communication_et_Information": [
+      {"verbe": "Informer", "definition": "Fournir des informations."},
+      {"verbe": "Notifier", "definition": "Communiquer officiellement."},
+      {"verbe": "Présenter", "definition": "Exposer des informations."},
+      {"verbe": "Rapporter", "definition": "Faire un compte rendu."},
+      {"verbe": "Transmettre", "definition": "Faire passer l'information."},
+      {"verbe": "Communiquer", "definition": "Échanger des informations."},
+      {"verbe": "Partager", "definition": "Distribuer des informations."},
+      {"verbe": "Annoncer", "definition": "Faire une déclaration publique."},
+      {"verbe": "Diffuser", "definition": "Rendre accessible à un large public."},
+      {"verbe": "Publier", "definition": "Rendre public par écrit ou autre média."},
+      {"verbe": "Expliquer", "definition": "Clarifier ou détailler une information."},
+      {"verbe": "Échanger", "definition": "Dialoguer et partager des idées."},
+      {"verbe": "Présider", "definition": "Diriger une réunion ou une discussion."},
+      {"verbe": "Documenter", "definition": "Enregistrer par écrit."},
+      {"verbe": "Notifier", "definition": "Informer officiellement par écrit."}
+    ],
+    "Planification_et_Organisation": [
+      {"verbe": "Planifier", "definition": "Établir un plan."},
+      {"verbe": "Organiser", "definition": "Structurer les actions."},
+      {"verbe": "Prévoir", "definition": "Anticiper les besoins futurs."},
+      {"verbe": "Programmer", "definition": "Planifier dans le temps."},
+      {"verbe": "Structurer", "definition": "Donner une structure à un projet."},
+      {"verbe": "Prioriser", "definition": "Définir l'ordre d'importance."},
+      {"verbe": "Configurer", "definition": "Mettre en place les paramètres nécessaires."},
+      {"verbe": "Calendrieriser", "definition": "Inscrire dans un calendrier."},
+      {"verbe": "Définir", "definition": "Établir les contours d'un projet."},
+      {"verbe": "Allouer", "definition": "Attribuer des ressources."},
+      {"verbe": "Détailler", "definition": "Préciser les éléments du plan."},
+      {"verbe": "Optimiser", "definition": "Améliorer l'efficacité."},
+      {"verbe": "Synchroniser", "definition": "Coordonner les différentes actions."},
+      {"verbe": "Assigner", "definition": "Attribuer des tâches à des personnes."}
+    ],
+    "Évaluation_et_Analyse": [
+      {"verbe": "Évaluer", "definition": "Juger ou estimer la valeur."},
+      {"verbe": "Analyser", "definition": "Examiner en détail."},
+      {"verbe": "Mesurer", "definition": "Quantifier les résultats."},
+      {"verbe": "Comparer", "definition": "Mettre en relation des éléments."},
+      {"verbe": "Diagnostiquer", "definition": "Identifier les causes d'un problème."},
+      {"verbe": "Apprécier", "definition": "Évaluer qualitativement."},
+      {"verbe": "Étudier", "definition": "Examiner attentivement."},
+      {"verbe": "Interpréter", "definition": "Donner un sens aux données."},
+      {"verbe": "Critiquer", "definition": "Analyser de manière négative ou positive."},
+      {"verbe": "Synthétiser", "definition": "Résumer les informations."},
+      {"verbe": "Revoir", "definition": "Réexaminer pour améliorer."},
+      {"verbe": "Valider", "definition": "Confirmer la véracité des informations."},
+      {"verbe": "Auditer", "definition": "Examiner systématiquement."},
+      {"verbe": "Peser", "definition": "Considérer les avantages et inconvénients."}
+    ],
+    "Gestion_des_Ressources": [
+      {"verbe": "Allouer", "definition": "Attribuer des ressources."},
+      {"verbe": "Gérer", "definition": "Administrer les ressources disponibles."},
+      {"verbe": "Optimiser", "definition": "Améliorer l'utilisation des ressources."},
+      {"verbe": "Distribuer", "definition": "Répartir les ressources."},
+      {"verbe": "Mobiliser", "definition": "Rassembler les ressources nécessaires."},
+      {"verbe": "Conserver", "definition": "Maintenir les ressources en bon état."},
+      {"verbe": "Réaffecter", "definition": "Changer l'affectation des ressources."},
+      {"verbe": "Approvisionner", "definition": "Fournir les ressources nécessaires."},
+      {"verbe": "Économiser", "definition": "Réduire la consommation des ressources."},
+      {"verbe": "Investir", "definition": "Utiliser les ressources pour un bénéfice futur."},
+      {"verbe": "Surveiller", "definition": "Contrôler l'utilisation des ressources."},
+      {"verbe": "Planifier", "definition": "Prévoir l'utilisation future des ressources."},
+      {"verbe": "Évaluer", "definition": "Mesurer l'efficacité de l'utilisation des ressources."},
+      {"verbe": "Rénover", "definition": "Améliorer ou remplacer les ressources existantes."}
+    ],
+    "Gestion_des_Conflits": [
+      {"verbe": "Médiatiser", "definition": "Intervenir pour résoudre un conflit."},
+      {"verbe": "Négocier", "definition": "Discuter pour trouver un accord."},
+      {"verbe": "Arbitrer", "definition": "Décider en cas de désaccord."},
+      {"verbe": "Concéder", "definition": "Faire des compromis."},
+      {"verbe": "Résoudre", "definition": "Trouver une solution au conflit."},
+      {"verbe": "Faciliter", "definition": "Aider à la communication entre les parties."},
+      {"verbe": "Pacifier", "definition": "Apaiser les tensions."},
+      {"verbe": "Clarifier", "definition": "Éclaircir les malentendus."},
+      {"verbe": "Reconciler", "definition": "Rétablir de bonnes relations."},
+      {"verbe": "Écouter", "definition": "Prêter attention aux préoccupations des parties."},
+      {"verbe": "Identifier", "definition": "Repérer les sources du conflit."},
+      {"verbe": "Prévenir", "definition": "Éviter l'escalade des conflits."},
+      {"verbe": "Dialoguer", "definition": "Communiquer pour résoudre le conflit."},
+      {"verbe": "Intervenir", "definition": "Prendre part pour aider à résoudre."}
+    ],
+    "Innovation_et_Amélioration": [
+      {"verbe": "Innover", "definition": "Introduire des nouveautés."},
+      {"verbe": "Améliorer", "definition": "Rendre meilleur."},
+      {"verbe": "Créer", "definition": "Produire quelque chose de nouveau."},
+      {"verbe": "Développer", "definition": "Faire évoluer ou progresser."},
+      {"verbe": "Transformer", "definition": "Modifier en profondeur."},
+      {"verbe": "Optimiser", "definition": "Rendre plus efficace."},
+      {"verbe": "Réinventer", "definition": "Créer de nouveau de manière innovante."},
+      {"verbe": "Moderniser", "definition": "Adapter aux temps actuels."},
+      {"verbe": "Renouveler", "definition": "Changer pour apporter du neuf."},
+      {"verbe": "Simplifier", "definition": "Rendre plus simple."},
+      {"verbe": "Standardiser", "definition": "Uniformiser les processus."},
+      {"verbe": "Tester", "definition": "Essayer une nouvelle méthode."},
+      {"verbe": "Élaborer", "definition": "Développer en détail."},
+      {"verbe": "Prototyper", "definition": "Créer un modèle initial."}
+    ],
+    "Formation_et_Développement": [
+      {"verbe": "Former", "definition": "Enseigner ou instruire."},
+      {"verbe": "Développer", "definition": "Favoriser la croissance ou l'amélioration."},
+      {"verbe": "Encadrer", "definition": "Superviser l'apprentissage."},
+      {"verbe": "Éduquer", "definition": "Transmettre des connaissances."},
+      {"verbe": "Coacher", "definition": "Accompagner individuellement pour progresser."},
+      {"verbe": "Sensibiliser", "definition": "Faire prendre conscience."},
+      {"verbe": "Informer", "definition": "Fournir des connaissances."},
+      {"verbe": "Orienter", "definition": "Diriger vers les ressources appropriées."},
+      {"verbe": "Motiver", "definition": "Encourager à se développer."},
+      {"verbe": "Évaluer", "definition": "Mesurer les acquis de la formation."},
+      {"verbe": "Planifier", "definition": "Organiser les sessions de formation."},
+      {"verbe": "Adapter", "definition": "Personnaliser la formation selon les besoins."},
+      {"verbe": "Actualiser", "definition": "Mettre à jour les connaissances."},
+      {"verbe": "Certifier", "definition": "Valider officiellement les compétences."}
+    ],
+    "Suivi_et_Contrôle": [
+      {"verbe": "Surveiller", "definition": "Observer de près."},
+      {"verbe": "Contrôler", "definition": "Vérifier la conformité."},
+      {"verbe": "Auditer", "definition": "Examiner systématiquement."},
+      {"verbe": "Inspecter", "definition": "Examiner minutieusement."},
+      {"verbe": "Évaluer", "definition": "Mesurer la performance."},
+      {"verbe": "Rapporter", "definition": "Faire un compte rendu."},
+      {"verbe": "Suivre", "definition": "Assurer le suivi continu."},
+      {"verbe": "Analyser", "definition": "Examiner les données de suivi."},
+      {"verbe": "Documenter", "definition": "Enregistrer les observations."},
+      {"verbe": "Identifier", "definition": "Repérer les écarts ou les améliorations nécessaires."},
+      {"verbe": "Corriger", "definition": "Rectifier les problèmes identifiés."},
+      {"verbe": "Valider", "definition": "Confirmer les résultats du suivi."},
+      {"verbe": "Réaliser", "definition": "Effectuer les actions de suivi."},
+      {"verbe": "Notifier", "definition": "Informer des résultats du contrôle."}
     ]
   }
-  
+}
